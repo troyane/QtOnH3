@@ -1,5 +1,20 @@
 # Tools for Crosscompilation of Qt 5.12+ on H3 devices (like NanoPi Neo Air)
 
+- [Tools for Crosscompilation of Qt 5.12+ on H3 devices (like NanoPi Neo Air)](#tools-for-crosscompilation-of-qt-512-on-h3-devices-like-nanopi-neo-air)
+  - [One-in-all Build Control script](#one-in-all-build-control-script)
+    - [`cd` to dir with script](#cd-to-dir-with-script)
+    - [Create tmpfs to optimize build time](#create-tmpfs-to-optimize-build-time)
+    - [Get toolchain](#get-toolchain)
+    - [Get Qt](#get-qt)
+    - [Do clean to be sure that everything is ok](#do-clean-to-be-sure-that-everything-is-ok)
+    - [Copy Sunxi mkspecs](#copy-sunxi-mkspecs)
+    - [Sync Pi's sysroot with host](#sync-pis-sysroot-with-host)
+    - [Configure Qt](#configure-qt)
+    - [Make and install Qt](#make-and-install-qt)
+    - [Sync host's sysroot with Pi](#sync-hosts-sysroot-with-pi)
+  - [Perfect world scenario](#perfect-world-scenario)
+
+
 ## One-in-all Build Control script
 Rule everything from one file. Still in progress, but will do the job for you.
 
