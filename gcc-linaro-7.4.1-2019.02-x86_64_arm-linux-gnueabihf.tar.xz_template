@@ -1,0 +1,4 @@
+# Check it here: https://releases.linaro.org/components/toolchain/binaries/7.4-2019.02/arm-linux-gnueabihf/
+
+wget https://releases.linaro.org/components/toolchain/binaries/7.4-2019.02/arm-linux-gnueabihf/gcc-linaro-7.4.1-2019.02-x86_64_arm-linux-gnueabihf.tar.xz
+
